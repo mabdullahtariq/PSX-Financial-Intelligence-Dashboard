@@ -1,85 +1,145 @@
 # 📈 PSX Financial Intelligence Dashboard
 
-An interactive **Power BI dashboard** designed to analyze the financial performance of leading companies listed on the **Pakistan Stock Exchange (PSX)**. The dashboard transforms financial statements into meaningful insights through interactive visualizations, KPI tracking, and financial ratio analysis.
+An interactive Power BI dashboard designed to analyze the Pakistan Stock Exchange (PSX) using financial statements, market performance, and trading data.
 
 ---
 
 ## 📌 Project Overview
 
-This project evaluates companies across three major sectors:
+The PSX Financial Intelligence Dashboard provides a comprehensive overview of Pakistan's capital market through interactive visualizations and financial analytics.
 
-- 🏦 Banking
-- ⛽ Energy (Oil & Gas)
-- 🛒 FMCG (Fast Moving Consumer Goods)
+The dashboard combines multiple datasets including listed companies, financial statements, market capitalization, KSE indices, trading volume, top gainers, and top losers into a single analytical solution.
 
-Using financial data from **FY2021–FY2023**, the dashboard enables users to compare company performance and identify investment opportunities through dynamic reporting.
+The project demonstrates Business Intelligence, Data Modeling, and Financial Analytics skills using Power BI.
 
 ---
 
 ## 🚀 Features
 
-- Executive KPI Dashboard
+- Executive Summary Dashboard
+- Market Performance Analysis
 - Financial Ratio Analysis
-- Revenue & Profit Trends
-- Earnings Per Share (EPS) Analysis
+- Company Performance Comparison
+- Sector-wise Market Analysis
+- Interactive Filters & Slicers
+- Drill-through Navigation
+- KPI Cards
+- Dynamic DAX Measures
+- Professional Report Navigation
+
+---
+
+## 📊 Dashboard Pages
+
+### Executive Summary
+- Total Companies
+- Total Market Capitalization
+- Total Revenue
+- Total Profit
+- Total Assets
+- Average ROE
+- Average ROA
+- Highest Gainer
+- Highest Loser
+- Market Overview
+
+---
+
+### Market Analysis
+- Market Capitalization by Sector
+- Top Gainers
+- Top Losers
+- Highest Trading Volume
+- KSE Index Trends
+- Company Performance Comparison
+
+---
+
+### Financial Ratio Analysis
 - Return on Equity (ROE)
-- Debt-to-Equity Comparison
-- Sector Performance Comparison
-- Interactive Slicers & Filters
-- Investment Recommendation Dashboard
+- Return on Assets (ROA)
+- Profit Margin
+- Asset Turnover
+- Financial Charges Analysis
+- Company Ranking
+- Sector Comparison
+
+---
+
+## 📂 Dataset
+
+The project integrates multiple datasets including:
+
+- Company Information
+- Sector Information
+- Financial Statements (2024)
+- Financial Statements (2025)
+- Market Capitalization
+- KSE100 Index
+- KSE All Share Index
+- Top Gainers
+- Top Losers
+- Top Volume
+- Market Sectors
 
 ---
 
 ## 🛠 Tools & Technologies
 
-- Power BI
+- Power BI Desktop
+- Power Query
 - DAX
-- Power Query
-- Microsoft Excel
 - Data Modeling
+- Microsoft Excel
 
 ---
 
-## 📊 Skills Demonstrated
+## 📐 Data Model
 
-- Business Intelligence
-- Financial Analysis
-- Dashboard Development
-- Data Visualization
-- KPI Design
-- DAX Calculations
-- Data Cleaning
-- Power Query
-- Executive Reporting
+A Star Schema model was implemented using:
 
----
+### Dimension Tables
+- Company
+- Sector
+- Time
 
-## 📂 Repository Structure
-
-```
-PSX-Financial-Intelligence-Dashboard
-│
-├── Dashboard.pbix
-├── PSX_Financial_Analysis.xlsx
-├── README.md
-└── images/
-```
+### Fact Tables
+- Financial Statements
+- Top Gainers
+- Top Losers
+- Trading Volume
+- Market Capitalization
+- KSE Index
 
 ---
 
-## 📈 Key Insights
+## 📈 Key KPIs
 
-- Banking sector delivered the strongest profitability during FY2023.
-- PPL demonstrated exceptional earnings growth and financial strength.
-- PSO experienced declining profitability due to rising finance costs.
-- FMCG companies maintained resilience despite inflationary pressures.
-- Interactive dashboards enable quick comparison across sectors.
+- Market Capitalization
+- Revenue
+- Profit After Tax
+- Total Assets
+- Shareholders' Equity
+- ROE
+- ROA
+- Profit Margin
+- Trading Volume
+- Dividend Analysis
+
 
 ---
 
-## 📚 Data Source
+## 💡 Business Insights
 
-Publicly available annual reports of companies listed on the Pakistan Stock Exchange (PSX).
+The dashboard enables users to:
+
+- Monitor overall market performance
+- Compare listed companies
+- Analyze sector performance
+- Identify profitable companies
+- Evaluate financial health
+- Track stock market trends
+- Analyze investment opportunities
 
 ---
 
@@ -87,8 +147,10 @@ Publicly available annual reports of companies listed on the Pakistan Stock Exch
 
 **Muhammad Abdullah Tariq**
 
-Business Analytics Student | FAST NUCES
+Business Analytics Student
+
+FAST NUCES Karachi
+
+LinkedIn: www.linkedin.com/in/muhammad-abdullah-tariq-41887328b
 
 GitHub: https://github.com/mabdullahtariq
-
-LinkedIn: https://linkedin.com/in/muhammad-abdullah-tariq-41887328b
